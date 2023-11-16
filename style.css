@@ -1,1 +1,38 @@
+body{
+    background-color: black;
+    color: white;
+}
 
+#smartBoard{
+    border: 1px solid white;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.smartBoardParts{
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.tasks{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    visibility: hidden;
+}
+
+.checkBtns{
+    border: 1px solid white;
+}
+
+.addBtns{
+    border: 1px solid white;
+}
+
+.editBtns{
+    border: 1px solid white;
+    visibility: hidden;
+}
